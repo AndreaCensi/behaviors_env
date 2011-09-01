@@ -8,6 +8,7 @@ ROOT=$PWD
 virtualenv --prompt=behaviors $ROOT/deploy
 export PKG_CONFIG_PATH=$ROOT/deploy/lib/pkgconfig:$PKG_CONFIG_PATH
 
+source $ROOT/deploy/bin/activate
 
 cd $ROOT/src/contracts 
 python setup.py develop 
