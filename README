@@ -1,0 +1,29 @@
+Install
+=======
+
+This is the basic version:
+
+    $ ./checkout.sh      # Download
+    $ ./setup.sh         # Install & test        
+
+
+Dependencies for EPD 7-1
+-------------------------
+
+Necessary packages to install for EPD:
+
+    easy_install pip
+    pip install virtualenv
+    
+    
+Run
+=============
+
+
+Try this:
+
+    fly_behaviors_simulations --fast -T 2    
+    
+Or if you have mplayer/mencoder installed, you can also create a video:
+
+    fly_behaviors_simulations --fast -T 2 --video
