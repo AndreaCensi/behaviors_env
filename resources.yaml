@@ -1,0 +1,34 @@
+---
+dir: .
+url: git://github.com/AndreaCensi/behaviors_env.git
+---
+dir: src/procgraph
+url: git://github.com/AndreaCensi/procgraph.git
+branch: behaviors
+---
+dir: src/contracts
+url: git://github.com/AndreaCensi/contracts.git
+branch: behaviors
+---
+dir: src/geometry
+url: git://github.com/AndreaCensi/geometry.git
+branch: behaviors
+---
+dir: src/vehicles
+url: git://github.com/AndreaCensi/vehicles.git
+branch: behaviors
+---
+dir: src/json-c
+url: git://github.com/AndreaCensi/json-c.git
+branch: behaviors
+---
+dir: src/raytracer
+url: git://github.com/AndreaCensi/raytracer.git
+branch: behaviors
+---
+dir: src/dynamics
+url: git@github.com:AndreaCensi/dynamics.git
+branch: behaviors
+---
+dir: src/fly_behaviors
+url: git@github.com:AndreaCensi/fly_behaviors.git
